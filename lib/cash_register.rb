@@ -13,7 +13,7 @@ class CashRegister
     new_price = price * quantity
     @total = total + new_price
     @title = title
-    @items << self
+    @items << self.title
   end
 
   def total
