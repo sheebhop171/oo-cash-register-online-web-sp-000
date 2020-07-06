@@ -32,7 +32,7 @@ class CashRegister
 
   def items
     #binding.pry
-    self.all
+    @@all
   end
 
   def void_last_transaction
